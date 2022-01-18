@@ -32,6 +32,15 @@ header {
   margin-bottom: 30px;
 }
 
+.header-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
 .card {
   background-color: #fff;
   color: #333;

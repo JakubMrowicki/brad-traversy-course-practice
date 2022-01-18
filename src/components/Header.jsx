@@ -5,9 +5,11 @@ function Header({ title }) {
   return (
     <header>
       <div className='container'>
-        <Link to='/'>
-          <h2>{title}</h2>
-        </Link>
+        <h2>
+          <Link className='header-link' to='/'>
+            {title}
+          </Link>
+        </h2>
       </div>
     </header>
   )
